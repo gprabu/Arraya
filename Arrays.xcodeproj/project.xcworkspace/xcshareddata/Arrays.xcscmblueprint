@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4C4E2652BF6E68A8964EA72AE0E674342552312",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B04F3153E7F685FC26133B6BF1947BB0C8D9526" : 0,
+    "E4C4E2652BF6E68A8964EA72AE0E674342552312" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "459E0CA4-6C1C-4539-AB58-1AEB3FE8CDAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B04F3153E7F685FC26133B6BF1947BB0C8D9526" : "..",
+    "E4C4E2652BF6E68A8964EA72AE0E674342552312" : "Arrays\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Arrays",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Arrays.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gprabu\/Course_Work_FreakingApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B04F3153E7F685FC26133B6BF1947BB0C8D9526"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gprabu\/Arraya.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4C4E2652BF6E68A8964EA72AE0E674342552312"
+    }
+  ]
+}
