@@ -32,6 +32,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return temp;
         
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "secondWindow", sender: emojis[indexPath.row])
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let emojiVC = segue.destination as! emojiViewController;
+        emojiVC.emoji =  sender as! String
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
