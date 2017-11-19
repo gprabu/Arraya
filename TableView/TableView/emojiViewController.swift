@@ -12,7 +12,9 @@ class emojiViewController: UIViewController {
     
     
     @IBOutlet weak var icon: UILabel!
+    @IBOutlet weak var details: UILabel!
     @IBOutlet weak var desc: UILabel!
+    @IBOutlet weak var info: UILabel!
     
     var emoji = "GP"
     override func viewDidLoad() {
@@ -28,6 +30,9 @@ class emojiViewController: UIViewController {
             {
             desc.text="Not Sure"
         }
+        
+        info.text = "Info"
+        details.text = "Detailed Info"
         
         // Do any additional setup after loading the view.
     }
